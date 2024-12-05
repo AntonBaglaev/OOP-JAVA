@@ -22,7 +22,9 @@ public class BottleOfWater extends Product{
     @Override
     public String toString() {
         return "BottleOfWater{" +
-                "volume=" + volume + ", name=" + getName() +
+                "name=" + getName() +
+                ", price=" + getPrice() +
+                ", volume=" + volume +
                 '}';
     }
 }
