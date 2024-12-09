@@ -1,4 +1,6 @@
-public class BottleOfWater extends Product{
+package Seminar1;
+
+public class BottleOfWater extends Product {
 
     private int volume;
 
@@ -21,7 +23,7 @@ public class BottleOfWater extends Product{
 
     @Override
     public String toString() {
-        return "BottleOfWater{" +
+        return "Seminar1.BottleOfWater{" +
                 "name=" + getName() +
                 ", price=" + getPrice() +
                 ", volume=" + volume +

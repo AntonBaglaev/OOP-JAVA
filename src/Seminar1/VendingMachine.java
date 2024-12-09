@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package Seminar1;
 
 public interface VendingMachine {
 

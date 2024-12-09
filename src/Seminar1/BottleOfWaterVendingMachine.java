@@ -1,6 +1,8 @@
+package Seminar1;
+
 import java.util.List;
 
-public class BottleOfWaterVendingMachine implements VendingMachine{
+public class BottleOfWaterVendingMachine implements VendingMachine {
 
     private final List<Product> productList;
     private int money;

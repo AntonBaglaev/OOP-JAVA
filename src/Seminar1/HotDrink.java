@@ -1,4 +1,6 @@
-public class HotDrink extends BottleOfWater{
+package Seminar1;
+
+public class HotDrink extends BottleOfWater {
 
     private  int temperature;
 
@@ -17,7 +19,7 @@ public class HotDrink extends BottleOfWater{
 
     @Override
     public String toString() {
-        return "HotDrink{" +
+        return "Seminar1.HotDrink{" +
                 "name=" + getName() +
                 ", price=" + getPrice() +
                 ", volume=" + getVolume() +

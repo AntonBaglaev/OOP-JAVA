@@ -1,3 +1,5 @@
+package Seminar1;
+
 public abstract class Product {
     public Product(String name, int price) {
         this.name = name;
@@ -25,7 +27,7 @@ public abstract class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Seminar1.Product{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';
