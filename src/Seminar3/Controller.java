@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Controller {
     private final StudentGroupService studentGroupService = new StudentGroupService();
+    private final StreamService streamService = new StreamService();
 
     public void removeStudentByFIO(String firstName, String lastName, String middleName) {
         studentGroupService.removeStudentByFIO(firstName, lastName, middleName);
@@ -11,10 +12,13 @@ public class Controller {
 
     public List<Student> getSortedStudentList() {
         studentGroupService.getSortedStudentList();
-        return null;
     }
 
     public List<Student> getSortedStudentByFIO() {
         return studentGroupService.getSortedStudentByFIO();
+    }
+
+    public List<StudentGroup> getSortedStudentGroup() {
+        return streamService.getSortedStudentGroup();
     }
 }
