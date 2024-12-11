@@ -12,6 +12,7 @@ public class Controller {
 
     public List<Student> getSortedStudentList() {
         studentGroupService.getSortedStudentList();
+        return null;
     }
 
     public List<Student> getSortedStudentByFIO() {
